@@ -115,6 +115,11 @@ public class MapsActivity extends FragmentActivity implements
                     Toast.makeText(this, "Please write any location name...", Toast.LENGTH_SHORT).show();
                 }
                 break;
+
+
+            case R.id.hospital_nearby:
+                mMap.clear();
+                break;
         }
 
     }
