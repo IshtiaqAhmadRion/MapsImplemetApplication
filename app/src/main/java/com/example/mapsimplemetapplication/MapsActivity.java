@@ -72,6 +72,7 @@ public class MapsActivity extends FragmentActivity implements
     }
 
     public void onClick (View v){
+
         switch (v.getId()){
             case R.id.search_address:
                 EditText addressField = findViewById(R.id.location_search);
